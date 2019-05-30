@@ -2,10 +2,25 @@
 .red { color: red; }
 .violet { color: violet; }
 
+.valign {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: -15% 0 0 -25%;
+}
+
 .first-box-container {
     width: 200px;
     height: 100px;
     position: absolute;
+    text-align: center;
+    border-style: solid;
+    border-width: 10px;
+    color: blue;
+    border-color: green;
+    text-transform: uppercase;
     background-color: red;
   }
   
@@ -14,6 +29,12 @@
     height: 100px;
     left: 250px;
     position: absolute;
+    text-align: center;
+    border-style: solid;
+    border-width: 10px;
+    color: blue;
+    border-color: red;
+    text-transform: uppercase;
     background-color: yellow;
   }
   
@@ -22,5 +43,11 @@
     height: 100px;
     left: 500px;
     position: absolute;
+    text-align: center;
+    border-style: solid;
+    border-width: 10px;
+    color: blue;
+    border-color: yellow;
+    text-transform: uppercase;
     background-color: green;
   }
